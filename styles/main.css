@@ -43,6 +43,7 @@ body {
   border: 1px solid var(--font-color);
   font-size: 1.5rem;
   border-radius: 15px;
+  outline: none;
 }
 
 .playing {
@@ -52,12 +53,12 @@ body {
 }
 
 .text {
-  color: white;
+  color: var(--font-color);
 }
 
 .key:hover {
-  background-color: #ffc600;
-  color: white;
+  background-color: var(--focus-color);
+  color: var(--font-color);
 }
 /* kbd {
   display: block;
@@ -67,8 +68,8 @@ body {
 
 .footer {
   height: 10vh;
-  background-color: black;
-  color: white;
+  background-color: var(--key-color);
+  color: var(--font-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,9 +91,16 @@ body {
 .social__item--github,
 .social__item--linkedin,
 .social__item--twitter {
-  color: white;
+  color: var(--font-color);
   cursor: pointer;
   margin: 20px;
+  transition: ease 0.8s;
+}
+
+.social__item--github:hover,
+.social__item--linkedin:hover,
+.social__item--twitter:hover {
+  color: var(--focus-color);
 }
 
 /*Version Tablet & Desktop*/
