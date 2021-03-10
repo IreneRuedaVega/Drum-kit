@@ -1,4 +1,4 @@
-# Drum kit
+# Drum kit :headphones:
 
 Este proyecto se trata del día 1 del reto de Wes Bos's #JavaScript30 aunque yo he experimentado con el modificando y agregando diferentes aspectos del proyecto inicial.
 
